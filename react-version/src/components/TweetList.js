@@ -1,8 +1,15 @@
 import React from 'react'; //optional
+import Tweet from './Tweet';
+
 
 function TweetList(){
   return (
-    <h1>I am the tweet list component</h1>
+    <main className="container">
+      <section className="tweets">
+        <Tweet></Tweet>
+        <Tweet></Tweet>
+      </section>
+    </main>
   );
 }
 
